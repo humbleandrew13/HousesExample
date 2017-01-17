@@ -18,7 +18,10 @@ namespace HousesExample
             this.color = color; //this.color is referring to the color variable after "private string" above
         }
 
-
-
+        public string CurrentColor()
+        {
+            return color;
+        }
+        
     }
 }
