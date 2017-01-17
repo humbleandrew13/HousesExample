@@ -12,6 +12,7 @@ namespace HousesExample
         private int rooms;
         private int size;
         private int doors;
+        static private int avgHousePrice;
 
         public void Paint(string color)
         {
