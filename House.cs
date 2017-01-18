@@ -30,6 +30,11 @@ namespace HousesExample
         {
             return color;
         }
-        
+
+        public void DisplayHouseInfo()
+        {
+            Console.Write("House Color: {0}, Rooms: {1}, ", color, rooms);
+            Console.WriteLine("Size is {0} sq ft, with {1} doors", size, doors);
+        }
     }
 }
